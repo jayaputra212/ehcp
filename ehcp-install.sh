@@ -3,7 +3,7 @@ sudo apt-get install software-properties-common -y
 sudo add-apt-repository universe -y
 sudo apt update
 sudo apt-get install wget subversion curl -y
-wget -O "ehcpforce_stable_snapshot.tar.gz" -N https://github.com/earnolmartin/EHCP-Force-Edition/releases/download/1.1.1.1/ehcpforce_stable_snapshot.tar.gz
+wget -O "ehcpforce_stable_snapshot.tar.gz" -N https://github.com/jayaputra212/ehcp/blob/main/ehcpforce_stable_snapshot.tar.gz
 tar -zxvf "ehcpforce_stable_snapshot.tar.gz"
 cd ehcp
 sudo bash install.sh
