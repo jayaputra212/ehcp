@@ -4,6 +4,7 @@ sudo add-apt-repository universe -y
 sudo apt update
 sudo apt-get install wget subversion curl -y
 wget -O "ehcpforce_stable_snapshot.tar.gz" -N https://github.com/jayaputra212/ehcp/blob/main/ehcpforce_stable_snapshot.tar.gz
+chmod 700 ehcp-install.sh
 tar -zxvf "ehcpforce_stable_snapshot.tar.gz"
 cd ehcp
 sudo bash install.sh
